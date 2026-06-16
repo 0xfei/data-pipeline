@@ -430,3 +430,4 @@ L3：漂移级监控
 | [09-data-quality-evaluation.md](docs/09-data-quality-evaluation.md) | 数据质量评价体系：数据准入、三池机制、级联短路评测、质量分、LLM Judge 抽样、训练接口与监控闭环 |
 | [10-data-mixture-strategy.md](docs/10-data-mixture-strategy.md) | 数据配比与训练数据配方：token 配比、quality_pool 使用、动态调配方、训练反馈、配方版本管理 |
 | [11-lineage-versioning-reproducibility.md](docs/11-lineage-versioning-reproducibility.md) | 数据血缘与可复现：dataset version、manifest、checkpoint 关联、全链路追溯、数据 diff 与回滚 |
+| [12-deepseek-technical-deconstruction.md](docs/12-deepseek-technical-deconstruction.md) | DeepSeek 技术拆解：数据工程、MLA/DeepSeekMoE/MTP/FP8、GRPO、verl 工程化、评测与推理系统启示 |
