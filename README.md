@@ -414,3 +414,19 @@ L3：漂移级监控
   └─ 每周对比相邻 snapshot 分布差异
   └─ KS-test/MMD on embedding distribution, perplexity drift
 ```
+
+### 14.6 详细设计文档索引
+
+| 文档 | 内容 |
+|---|---|
+| [01-data-sources.md](docs/01-data-sources.md) | GitHub 数据处理细节：repo 重要性评估、commit 过滤、代码去重、Issue-Commit-Code 修复链 |
+| [02-data-lake.md](docs/02-data-lake.md) | 数据湖架构：Iceberg + Lance 存储、Medallion 分层、分区策略、S3 生命周期 |
+| [03-processing-pipeline.md](docs/03-processing-pipeline.md) | 全链路处理管线：8 阶段详细设计、schema 定义、增量合并、分数据源处理矩阵 |
+| [04-tech-stack.md](docs/04-tech-stack.md) | 技术选型详情：36 项技术选型、Spark/Ray 部署、模型版本锁定、Ray 调度方案对比 |
+| [05-cost-model.md](docs/05-cost-model.md) | 成本模型：阿里云 OSS 双轨定价、9 类成本明细、存储成本占 97.7% |
+| [06-risks.md](docs/06-risks.md) | 风险管理：RACI 矩阵、触发条件、定量预警信号 |
+| [07-pending.md](docs/07-pending.md) | 待定项清单：8 个待定项、优先级排序、决策要点 |
+| [08-training-overview.md](docs/08-training-overview.md) | 大模型训练全链路概览：从数据交付到线上推理的完整流程，含 Tokenizer、分布式训练、Checkpoint、量化部署 |
+| [09-data-quality-evaluation.md](docs/09-data-quality-evaluation.md) | 数据质量评价体系：数据准入、三池机制、级联短路评测、质量分、LLM Judge 抽样、训练接口与监控闭环 |
+| [10-data-mixture-strategy.md](docs/10-data-mixture-strategy.md) | 数据配比与训练数据配方：token 配比、quality_pool 使用、动态调配方、训练反馈、配方版本管理 |
+| [11-lineage-versioning-reproducibility.md](docs/11-lineage-versioning-reproducibility.md) | 数据血缘与可复现：dataset version、manifest、checkpoint 关联、全链路追溯、数据 diff 与回滚 |
